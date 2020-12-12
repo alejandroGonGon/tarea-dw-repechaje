@@ -1,0 +1,489 @@
+                                    html,
+                                    body {
+                                        height: 100%;
+                                        margin: 0;
+                                        display: flex;
+                                        flex-direction: column;
+                                    }
+                                    
+                                    .row {
+                                        width: 100%;
+                                    }
+                                    
+                                    #homePage {
+                                        width: 100%;
+                                        height: 492px;
+                                    }
+                                    
+                                    #infoPage {
+                                        width: 100%;
+                                        height: 70%;
+                                        background-color: #242943;
+                                    }
+                                    /*Segunda section*/
+                                    
+                                    .quarter {
+                                        width: 50%;
+                                        float: left;
+                                    }
+                                    
+                                    div.col-5.quarter {
+                                        padding-right: 0px;
+                                        padding-left: 0px;
+                                        height: 468px;
+                                    }
+                                    
+                                    div.col-12.emailSection {
+                                        height: 138px;
+                                    }
+                                    
+                                    div.col-12.phoneSection {
+                                        height: 138px;
+                                    }
+                                    
+                                    div.col-12.adressSection {
+                                        height: 138px;
+                                    }
+                                    
+                                    img#imageEmail {
+                                        width: 45px;
+                                        height: 32px;
+                                        filter: invert(1.9);
+                                    }
+                                    
+                                    div.col-3.imgPhone img#imagePhone\ {
+                                        width: 35px;
+                                        height: 32px;
+                                        filter: invert(1.9);
+                                    }
+                                    
+                                    div.col-3.imgAdress img#imageAdress\ {
+                                        width: 45px;
+                                        height: 42px;
+                                        filter: invert(1.9);
+                                    }
+                                    
+                                    div.col-12.phoneSection div.row {
+                                        height: auto;
+                                        padding-top: 40px;
+                                        padding-right: 65px;
+                                    }
+                                    
+                                    div.col-12.adressSection div.row {
+                                        height: auto;
+                                        padding-top: 40px;
+                                        padding-right: 65px;
+                                    }
+                                    
+                                    div.col-12.emailSection div.row {
+                                        height: auto;
+                                        padding-top: 40px;
+                                        padding-right: 65px;
+                                    }
+                                    
+                                    div.col-12.emailSection div.row div.col-3.imgMail {
+                                        padding-left: 90px;
+                                    }
+                                    
+                                    div.col-12.adressSection div.row div.col-3.imgAdress {
+                                        padding-left: 90px;
+                                    }
+                                    
+                                    div.col-12.phoneSection div.row div.col-3.imgPhone {
+                                        padding-left: 90px;
+                                    }
+                                    
+                                    div.col-12.emailSection div.row div.col-9.textMail {
+                                        padding-top: 4px;
+                                        padding-right: 10px;
+                                    }
+                                    
+                                    div.col-12.phoneSection div.row div.col-9.textPhone {
+                                        padding-top: 4px;
+                                        padding-right: 10px;
+                                    }
+                                    
+                                    div.col-12.adressSection div.row div.col-9.textAdress {
+                                        padding-top: 10px;
+                                        padding-right: 10px;
+                                    }
+                                    
+                                    div.col-12.phoneSection div.row div.col-9.textPhone strong {
+                                        color: white;
+                                        font-family: "Source Sans Pro", Helvetica, sans-serif;
+                                        font-size: 18px;
+                                    }
+                                    
+                                    div.col-12.adressSection div.row div.col-9.textAdress strong {
+                                        color: white;
+                                        font-family: "Source Sans Pro", Helvetica, sans-serif;
+                                        font-size: 18px;
+                                    }
+                                    
+                                    div.col-12.emailSection div.row div.col-9.textMail strong {
+                                        color: white;
+                                        font-family: "Source Sans Pro", Helvetica, sans-serif;
+                                        font-size: 18px;
+                                    }
+                                    
+                                    div.col-12.emailSection div.row div.col-12.mailInfo {
+                                        color: white;
+                                        font-family: "Source Sans Pro", Helvetica, sans-serif;
+                                        padding-left: 140px
+                                    }
+                                    
+                                    div.col-12.adressSection div.row div.col-12.adressInfo {
+                                        color: white;
+                                        font-family: "Source Sans Pro", Helvetica, sans-serif;
+                                        padding-left: 140px
+                                    }
+                                    
+                                    div.col-12.phoneSection div.row div.col-12.phoneInfo {
+                                        color: white;
+                                        font-family: "Source Sans Pro", Helvetica, sans-serif;
+                                        padding-left: 140px
+                                    }
+                                    
+                                    div.col-12.emailSection {
+                                        border-bottom: 1px solid grey;
+                                    }
+                                    
+                                    div.col-12.phoneSection {
+                                        border-bottom: 1px solid grey;
+                                    }
+                                    
+                                    div.col-5.quarter {
+                                        border-left: 1px solid grey;
+                                    }
+                                    
+                                    div.col-7.quarter {
+                                        margin-top: 78px;
+                                        padding-left: 177px;
+                                    }
+                                    
+                                    div.col-6 strong {
+                                        color: #fff;
+                                        position: relative;
+                                        font-family: "Source Sans Pro", Helvetica, sans-serif;
+                                        letter-spacing: 0.2em;
+                                        font-size: 12px;
+                                    }
+                                    
+                                    div.col-7.quarter div.row {
+                                        padding-bottom: 10px;
+                                    }
+                                    
+                                    div.col-7.quarter div.row.mssg {
+                                        padding-bottom: 0px;
+                                    }
+                                    
+                                    input {
+                                        -webkit-writing-mode: horizontal-tb !important;
+                                        background: rgba(212, 212, 255, 0.035);
+                                        word-spacing: normal;
+                                        text-transform: none;
+                                        text-indent: 0px;
+                                        text-shadow: none;
+                                        display: inline-block;
+                                        text-align: start;
+                                        appearance: textfield;
+                                        background-color: none;
+                                        -webkit-rtl-ordering: logical;
+                                        cursor: text;
+                                        margin: 0em;
+                                        font: 400 13.3333px Arial;
+                                        padding: 1px 2px;
+                                        border-width: 2px;
+                                        border-style: inset;
+                                        border-color: transparent;
+                                        border-image: initial;
+                                        width: 100%;
+                                        height: 127%;
+                                    }
+                                    
+                                    div.col-12 input {
+                                        height: 100%;
+                                    }
+                                    
+                                    div.col-7.quarter div.row div.col-12.mssgText {
+                                        color: #fff;
+                                        position: relative;
+                                        font-family: "Source Sans Pro", Helvetica, sans-serif;
+                                        letter-spacing: 0.2em;
+                                        font-size: 12px;
+                                    }
+                                    
+                                    div.col-7.quarter div.row div.col-12 {
+                                        margin-top: 20px;
+                                    }
+                                    
+                                    div.col-7 a#buttonClear.butonClear {
+                                        color: white;
+                                        background-color: transparent;
+                                        border-style: solid;
+                                        font-family: 'Source Sans Pro', Helvetica, sans-serif;
+                                        padding-bottom: 6px;
+                                        padding-left: 15px;
+                                        padding-right: 15px;
+                                        padding-top: 2px;
+                                        letter-spacing: 3px;
+                                    }
+                                    
+                                    div.col-5 a#buttonSend.butonSendMessage {
+                                        color: #242943;
+                                        background-color: white;
+                                        font-family: 'Source Sans Pro', Helvetica, sans-serif;
+                                        padding-bottom: 8px;
+                                        padding-left: 15px;
+                                        padding-right: 15px;
+                                        padding-top: 4px;
+                                        letter-spacing: 3px;
+                                    }
+                                    
+                                    div.col-7.quarter div.row div.col-7 {
+                                        padding-top: 10px;
+                                    }
+                                    
+                                    div.col-7.quarter div.row div.col-5 {
+                                        padding-top: 10px;
+                                    }
+                                    /**/
+                                    /*footerSection*/
+                                    
+                                    .footerSection {
+                                        background-color: #242943;
+                                        height: 50%;
+                                        border-top: 1px solid grey;
+                                    }
+                                    
+                                    img#twiterImg {
+                                        width: 25px;
+                                        height: 20px;
+                                        filter: invert(1);
+                                    }
+                                    
+                                    img#facebookImg {
+                                        width: 25px;
+                                        height: 20px;
+                                        filter: invert(1);
+                                    }
+                                    
+                                    img#instagramImg {
+                                        width: 25px;
+                                        height: 20px;
+                                        filter: invert(1);
+                                    }
+                                    
+                                    img#githubImg {
+                                        width: 35px;
+                                        height: 30px;
+                                        filter: invert(1);
+                                    }
+                                    
+                                    img#linkedinImg {
+                                        width: 25 px;
+                                        height: 30px;
+                                        filter: invert(1);
+                                    }
+                                    
+                                    .footerSection .container {
+                                        padding-top: 50px;
+                                    }
+                                    
+                                    #textoFooter {
+                                        font-size: 11px;
+                                        color: grey;
+                                        position: relative;
+                                        font-family: "Source Sans Pro", Helvetica, sans-serif;
+                                    }
+                                    /*end footerSection*/
+                                    
+                                    div.row div.col-2 {
+                                        border-left: 1px solid grey;
+                                    }
+                                    
+                                    div.col-9.textAdress {
+                                        padding-left: 25px;
+                                    }
+                                    
+                                    div.col-9.textMail {
+                                        padding-left: 25px;
+                                    }
+                                    
+                                    .menu {
+                                        padding-left: 30vh;
+                                    }
+                                    
+                                    .div {
+                                        display: flex;
+                                    }
+                                    
+                                    .page {
+                                        background-image: url(https://html5up.net/uploads/demos/forty/images/banner.jpg);
+                                        display: block;
+                                        height: 100%;
+                                        width: 100%;
+                                    }
+                                    
+                                    #textFirst {
+                                        font-size: 3.5em;
+                                        color: #fff;
+                                        position: relative;
+                                        font-family: "Source Sans Pro", Helvetica, sans-serif;
+                                    }
+                                    
+                                    #textSecond {
+                                        color: #fff;
+                                        position: relative;
+                                        letter-spacing: 0.3em;
+                                        font-size: 12px;
+                                        font-family: "Source Sans Pro", Helvetica, sans-serif;
+                                    }
+                                    
+                                    .page::before {
+                                        content: '';
+                                        position: absolute;
+                                        top: 75px;
+                                        bottom: -61px;
+                                        left: 0;
+                                        right: 0;
+                                        background-color: rgba(36, 41, 67, 0.8);
+                                    }
+                                    
+                                    .header {
+                                        display: flex;
+                                        padding-top: 20px;
+                                        padding-left: 10px;
+                                        font-family: 'Source Sans Pro', Helvetica, sans-serif;
+                                        letter-spacing: 4px
+                                    }
+                                    
+                                    #fortyLogo {
+                                        text-justify: auto;
+                                    }
+                                    
+                                    .header .fortyLogo strong {
+                                        color: #242943;
+                                        background-color: white;
+                                        line-height: 1.65em;
+                                        padding: 0 0.125em 0 0.375em;
+                                    }
+                                    
+                                    .header .fortyLogo span {
+                                        color: white;
+                                    }
+                                    
+                                    .header .menu span {
+                                        color: white;
+                                    }
+                                    
+                                    .header #imageMenu {
+                                        width: 45px;
+                                        height: 32px;
+                                        filter: invert(1);
+                                    }
+                                    
+                                    #homePage .container .row {
+                                        margin-top: 100px;
+                                    }
+                                    
+                                    #homePage .container .row #textFirst {
+                                        border-bottom: 2px solid white;
+                                        padding-bottom: 20px;
+                                    }
+                                    
+                                    #homePage .textAndButton .container .row {
+                                        margin-top: 30px;
+                                    }
+                                    
+                                    #homePage .textAndButton .container .row #buttonStarted {
+                                        color: white;
+                                        background-color: transparent;
+                                        border-style: solid;
+                                        font-family: 'Source Sans Pro', Helvetica, sans-serif;
+                                        padding-bottom: 10px;
+                                        padding-left: 24px;
+                                        padding-right: 24px;
+                                        padding-top: 10px;
+                                        letter-spacing: 4px;
+                                    }
+                                    
+                                    #homePage .textAndButton .container .row .col-4 {
+                                        margin-top: 15px;
+                                    }
+                                    .firstSection{
+                                        height: 80px;
+                                    }
+                                      ul#options{
+                                        display: inline-flex;
+                                        list-style:none 
+                                    }
+                                    
+                                    ul#options li a{
+                                        font-family: "Source Sans Pro", Helvetica, sans-serif;
+                                        font-size: 15px;
+                                        text-decoration: none;
+                                        float: left;
+                                        padding: 10px;
+                                        background-color: transparent;
+                                        color: #676d79;
+                                        border-top: 1px solid #676d79;
+                                        border-bottom: 1px solid #676d79;
+
+
+                                    }
+                                    ul#options li a#mobile{
+                                        border-right: 1px solid #676d79;
+                                    } ul#options li a#desktop{
+                                        color: white;
+                                        background-color: #676d79;
+                                        border-left: 1px solid #676d79;
+                                    }
+                                    #fortyTittle{
+                                        color: #676d79;
+                                        font-size: 23px;
+                                        letter-spacing: unset;
+                                        padding-left: 50px;
+                                        padding-top: 10px;
+                                    }
+                                    #spaceForty{
+                                    padding-top: 5px;                                  
+                                    }
+
+                                    ul#optionsTwo{
+                                        display: inline-flex;
+                                        list-style:none 
+                                    }
+                                    ul#optionsTwo li a {
+                                        font-family: "Source Sans Pro", Helvetica, sans-serif;
+                                        font-size: 15px;
+                                        text-decoration: none;
+                                        float: left;
+                                        padding: 10px;
+                                        background-color: transparent;
+                                        color: #676d79;
+                                    }
+                                    ul#optionsTwo li a#download{
+                                        background-color: #e7746f;
+                                        color:white;
+                                        margin-left: 10px;
+                                        font-weight: bold;
+
+                                    }
+                                    ul#optionsTwo li a#back{
+                                        color: #676d79;
+                                        border: 1px solid #676d79;
+                                        margin-left: 10px;
+                                        font-weight: bold;
+                                    }
+                                    ul#optionsTwo li a#twiterFacebook{
+                                        color: #676d79;
+                                        border: 1px solid #676d79;
+                                        font-weight: bold;
+
+                                    }  
+                                    div#downloadPart.col-6{
+                                        padding-left: 260px;
+                                    }
+                                    
+
